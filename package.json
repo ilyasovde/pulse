@@ -1,0 +1,48 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "Crash course for Git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilyasovde/git-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilyasovde/git-test/issues"
+  },
+  "homepage": "https://github.com/ilyasovde/git-test#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.49.0"
+  },
+  "dependencies": {
+    "ansi-colors": "^1.1.0",
+    "ansi-wrap": "^0.1.0",
+    "arr-diff": "^4.0.0",
+    "arr-union": "^3.1.0",
+    "assign-symbols": "^1.0.0",
+    "clean-css": "^4.2.3",
+    "core-util-is": "^1.0.3",
+    "inherits": "^2.0.4",
+    "isarray": "^1.0.0",
+    "isobject": "^3.0.1",
+    "plugin-error": "^1.0.1",
+    "process-nextick-args": "^2.0.1",
+    "readable-stream": "^2.3.7",
+    "safe-buffer": "^5.1.2",
+    "source-map": "^0.5.7",
+    "string_decoder": "^1.1.1",
+    "util-deprecate": "^1.0.2",
+    "vinyl-sourcemaps-apply": "^0.2.1"
+  }
+}

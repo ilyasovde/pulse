@@ -1,0 +1,27 @@
+        @media (max-width:991px) {
+            .button {
+                margin: 0 auto;
+                &__header {
+                    margin: 0 auto;
+                    margin-top: 40px;
+                }
+                &_main {
+                    margin-top: 40px;
+                }
+            }
+        }
+        
+        @media (max-width:480px) {
+            .button_head {
+                width: 120px;
+                font-size: 10px;
+            }
+        }
+        
+        @media (max-width:360px) {
+            .button {
+                &_main {
+                    width: 250px;
+                }
+            }
+        }
